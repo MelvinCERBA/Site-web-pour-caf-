@@ -1,0 +1,113 @@
+/* header */
+.header nav h1 {
+  float: none;
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+/* Il faut sélécctionner le lien et non le titre, sinon le style des liens s'applique car plus spécifique */
+.header nav h1 a {
+  color: white;
+}
+
+.header nav ul {
+  float: none;
+  display: block;
+}
+
+.header nav ul li {
+  float: none;
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+
+/* vp */
+
+.vp {
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center;
+  background-size: cover;
+}
+
+.vp-content {
+  max-width: 600px;
+  padding-top: 4rem;
+  color: white;
+  display:block;
+  margin: auto;
+  text-align: center;
+}
+
+.vp-content h1 {
+  font-size: 2rem;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+  padding: 20px;
+}
+
+/* features */
+.features {
+  overflow: auto;
+  padding: 75px 0px;
+  text-align: center;
+}
+
+.feature{
+  float:none;
+  display: blocks;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 20px;
+}
+
+/* person */
+
+.person {
+  height: 60vh;
+}
+
+/*  reservation */
+
+.reservation {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* footer */
+
+footer p {
+  font-size: smaller;
+}
+
+/* Where */
+
+.where {
+  padding: 0px 0px;
+}
+
+.where-img {
+  float: none;
+  width: 100%;
+  border:none;
+}
+
+.where-txt {
+  padding: 50px 20px;
+  margin: auto;
+  float:none;
+  width: 75%;
+}
+
+/* contact */
+
+.contact {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
